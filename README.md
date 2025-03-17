@@ -1,22 +1,22 @@
-# This repository provides a comprehensive pipeline for analyzing multi-omics data using Flexynesis, focusing on survival analysis, classification, and multi-task modeling. The analysis utilizes mutational (mut) and copy number alteration (cna) data to predict clinical outcomes.
+## This repository provides a comprehensive pipeline for analyzing multi-omics data using Flexynesis, focusing on survival analysis, classification, and multi-task modeling. The analysis utilizes mutational (mut) and copy number alteration (cna) data to predict clinical outcomes.
 
-## Notebook Overview
+### Notebook Overview
 
-## Data Loading & Preprocessing
+### Data Loading & Preprocessing
 
-Download and extract the dataset (lgggbm_tcga_pub_processed).
+Download and extract the dataset (https://bimsbstatic.mdc-berlin.de/akalin/buyar/flexynesis-benchmark-datasets/dataset1.tgz).
 Inspect data structure and handle missing values.
-## Survival Analysis
+### Survival Analysis
 
 Generate Kaplan-Meier survival curves.
 Apply Cox Proportional Hazards Model.
 Predict survival using Flexynesis.
-## Classification & Multi-Task Learning
+### Classification & Multi-Task Learning
 
-## Train classification models for HISTOLOGICAL_DIAGNOSIS.
+### Train classification models for HISTOLOGICAL_DIAGNOSIS.
 Implement multi-task learning for diagnosis and performance scores.
 Create confusion matrices and evaluate metrics.
-## Technical Requirements
+### Technical Requirements
 
 Python: 3.11+
 Environment: Jupyter Notebook / Terminal
