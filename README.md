@@ -20,7 +20,7 @@ matplotlib
 scikit-learn
 lifelines
 
-# 📊 Visualization outcomes
+## 📊 Visualization outcomes
 
-Confusion Matrix & Classification Report.
-Survival Curve (Kaplan-Meier Plot).
+### Confusion Matrix & Classification Report.
+### Survival Curve (Kaplan-Meier Plot).
