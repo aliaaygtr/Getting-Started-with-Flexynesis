@@ -6,16 +6,7 @@
 
 Download and extract the dataset (https://bimsbstatic.mdc-berlin.de/akalin/buyar/flexynesis-benchmark-datasets/dataset1.tgz).
 Inspect data structure and handle missing values.
-### Survival Analysis
 
-Generate Kaplan-Meier survival curves.
-Apply Cox Proportional Hazards Model.
-Predict survival using Flexynesis.
-### Classification & Multi-Task Learning
-
-### Train classification models for HISTOLOGICAL_DIAGNOSIS.
-Implement multi-task learning for diagnosis and performance scores.
-Create confusion matrices and evaluate metrics.
 ### Technical Requirements
 
 Python: 3.11+
